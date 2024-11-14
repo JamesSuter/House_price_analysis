@@ -10,7 +10,7 @@ This map shows that the high added-value properties are in the north of the city
 
 ![](./St_Albans_postcodes.png)
 
-Using DBSCAN clustering, these postcodes have been clustered together into regions, as shown below. 
+Using DBSCAN clustering, these postcodes have been clustered together into larger regions, as shown below. 
 
 ![](./St_Albans_regions.png)
 
