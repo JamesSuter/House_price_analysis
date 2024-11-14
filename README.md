@@ -6,7 +6,7 @@ This project has created some nice interactive folium maps - none of which are d
 
 This is an image of the geospatial distribution of added-value of properties in St Albans (specifically the AL1 district), showing high added-value properties in the north of the city, and lower added-value properties in the south-east. We can also see properties near main roads, or railway lines, have lower added-value than those nearby. 
 
-![](./St_Albans_postcode.png)
+![](./St_Albans_postcodes.png)
 
 Using DBSCAN clustering, these postcodes have been clustered together into regions, as shown below. 
 
