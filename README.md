@@ -4,6 +4,16 @@ This project analyzes house price data for St. Albans, focusing on trends over t
 
 This project has created some nice interactive folium maps - none of which are displayed in GitHub. Therefore, I've included static images (and a PDF version). 
 
+This is an image of the geospatial distribution of added-value of properties in St Albans (specifically the AL1 district), showing high added-value properties in the north of the city, and lower added-value properties in the south-east. We can also see properties near main roads, or railway lines, have lower added-value than those nearby. 
+
+[St_Albans_postcode.png]
+
+Using DBSCAN clustering, these postcodes have been clustered together into regions, as shown below. 
+
+[St_Albans_regions.png]
+
+Using these regions are a label for the properties, we improve our Random Forest Regression model to an r2 score of 0.8 (from 0.74) for the inflation ajusted price! 
+
 
 ## Project Structure
 - **St_Albans_house_prices_dataframe.ipynb**: Notebook to create a combined dataset
